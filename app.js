@@ -21,6 +21,11 @@ const parents = document.querySelectorAll(".parents");
 parents.forEach(function(parent){
     const btn = parent.querySelector(".question-btn");
     btn.addEventListener('click',function(){
+        parents.forEach(function(item){
+            if(item !== parent){
+                item.classList.remove("show-child")
+            }
+        })
         parent.classList.toggle("show-child");
     })
 })
