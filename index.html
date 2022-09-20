@@ -8,16 +8,27 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
     />
+    <link rel="stylesheet" href="style.css" />
     <title>Tree</title>
   </head>
   <body>
     <div class="container">
       <div class="tree">
         <div class="parents">
-          <div class="parent1">
-            <div class="parent">parent</div>
+          <div class="parent1 parent-set">
+            <div class="parent">
+              parent
+              <button class="question-btn" type="button">
+                <span class="plus-icon">
+                  <i class="far fa-plus-square"></i>
+                </span>
+                <span class="minus-icon">
+                  <i class="far fa-minus-square"></i>
+                </span>
+              </button>
+            </div>
           </div>
-          <div class="chiled1">
+          <div class="chiled1 child-set">
             <div class="chiled">chiled1</div>
             <div class="chiled">chiled2</div>
             <div class="chiled">chiled3</div>
@@ -25,5 +36,6 @@
         </div>
       </div>
     </div>
+    <script src="./app.js"></script>
   </body>
 </html>
