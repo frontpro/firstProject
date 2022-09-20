@@ -16,12 +16,12 @@ body {
     height: 100vh;
 }
 
-.parents {
+.tree {
     border: 2px solid #bab6b6;
     border-radius: 10px;
     width: 500px;
     padding: 10px;
-
+    height: auto;
 }
 
 .parent-set {
@@ -61,6 +61,7 @@ body {
 .show-child .child-set {
     display: block;
     padding-bottom: 50px;
+
 }
 
 .minus-icon {
@@ -69,6 +70,7 @@ body {
 
 .show-child .minus-icon {
     display: inline;
+    height: auto;
 }
 
 .show-child .plus-icon {
