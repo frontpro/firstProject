@@ -50,12 +50,17 @@ body {
 }
 
 .child-set {
-    padding: 2rem 4rem;
+    padding-left: 2rem;
     display: none;
+}
+
+.child-set .chiled {
+    border-bottom: 1px solid #bab6b6;
 }
 
 .show-child .child-set {
     display: block;
+    padding-bottom: 50px;
 }
 
 .minus-icon {
